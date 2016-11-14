@@ -1,0 +1,45 @@
+a{
+    color: #464646;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+img{
+    max-width: 100%;
+}
+
+::selection {
+  background: #212121; /* WebKit/Blink Browsers */
+  color: #00a9cf;
+}
+::-moz-selection {
+  background: #212121; /* Gecko Browsers */
+  color: #00a9cf;
+}
+
+body{
+	color: #000000
+	background-color: #eee;
+	font-family: 'Roboto', sans-serif;
+}
+
+section{
+	width: 100vw;
+	height: 100%;
+}
+
+.splash{
+       background: #3a397b;
+        background: -moz-linear-gradient(45deg, #3a397b 0%, #3a397b 15%, #00a9cf 100%);
+        background: -webkit-gradient(left bottom, right top, color-stop(0%, #3a397b), color-stop(15%, #3a397b), color-stop(100%, #00a9cf));
+        background: -webkit-linear-gradient(45deg, #3a397b 0%, #3a397b 15%, #00a9cf 100%);
+        background: -o-linear-gradient(45deg, #3a397b 0%, #3a397b 15%, #00a9cf 100%);
+        background: -ms-linear-gradient(45deg, #3a397b 0%, #3a397b 15%, #00a9cf 100%);
+        background: linear-gradient(45deg, #3a397b 0%, #3a397b 15%, #00a9cf 100%);
+    }
+.splash img{
+	max-width: 60vw;
+	margin: 5vh auto 5vh auto;
+}
