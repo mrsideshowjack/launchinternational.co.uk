@@ -1,5 +1,5 @@
 a{
-    color: #464646;
+    color: #3a397b;
     text-decoration: none;
 }
 a:hover{
@@ -23,15 +23,19 @@ body{
 	color: #000000
 	background-color: #eee;
 	font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
 }
 
 section{
-	width: 100vw;
-	height: 100%;
+  padding: 6em 0px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .splash{
-       background: #3a397b;
+        background: #3a397b;
         background: -moz-linear-gradient(45deg, #3a397b 0%, #3a397b 15%, #00a9cf 100%);
         background: -webkit-gradient(left bottom, right top, color-stop(0%, #3a397b), color-stop(15%, #3a397b), color-stop(100%, #00a9cf));
         background: -webkit-linear-gradient(45deg, #3a397b 0%, #3a397b 15%, #00a9cf 100%);
@@ -40,6 +44,267 @@ section{
         background: linear-gradient(45deg, #3a397b 0%, #3a397b 15%, #00a9cf 100%);
     }
 .splash img{
-	max-width: 60vw;
-	margin: 5vh auto 5vh auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.splash div{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+    margin: 50px 0 0 0;
+    display: inline;
+    padding: 15px 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 200ms;
+    background: transparent;
+    cursor: pointer;
+}
+.btn:hover{
+    text-decoration: none;
+    background: rgba(255,255,255,0.1);
+}
+
+article{
+  max-width: 1400px;
+  margin: 0em auto;
+}
+
+.about{
+/*    background-color: #E6E6E6;
+    background: url('../images/building.jpg') no-repeat right center ,
+         linear-gradient(90deg, rgba(255,255,255,1), rgba(255,255,255,0.9), rgba(255,255,255,0.1)); 
+    background-size: 25%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    position: relative;
+    overflow: hidden;*/
+}
+
+.about img{
+      position: absolute;
+    top: 100px;
+    right: 55%;
+ /* float: right;
+  max-width: 33vw;
+  padding-left: 10px;*/
+}
+
+.people{
+  max-width: 75%;
+background-color: pink;
+text-align: center;
+}
+
+.people div{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+justify-content: space-around; 
+align-content: space-around;
+}
+
+.people .person{
+  max-width: 400px;
+}
+.people span{
+/*  float: right;
+  max-width: 700px;
+  margin: 1em;
+  background-color: yellow;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;*/
+/*  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;*/
+/*  justify-content: space-around; 
+  align-content: space-around;
+
+  flex-wrap: wrap;
+  flex-direction: row;*/
+}
+
+.people .avatar{
+/*  max-width: 100px;
+  float: left;
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%) 
+          brightness(135%)
+          contrast(120%);
+  filter: grayscale(100%) 
+          brightness(135%)
+          contrast(120%);
+  transition: filter 0.3s, box-shadow 0.3s;
+  -webkit-transition: filter 0.3s, -webkit-filter 0.3s, box-shadow 0.3s;
+}
+.people .avatar:hover{
+  -webkit-filter: none;
+  filter: none;*/
+}
+
+.people div{
+/*  width: 100%;
+  max-width: 900px;
+    padding: 0;
+  margin: auto;
+  justify-content: space-around; 
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;*/
+}
+
+/*.people .caption{
+  float: right;
+  background-color: #333333;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 80%;
+  font-weight: 200;
+  display: inline-block;
+  margin: 3em;
+  padding: 2em;
+  position: relative;
+  width: 100%;
+}*/
+
+/*.people .caption:after {
+  border-color: transparent transparent #333333 transparent;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  bottom: 100%;
+  content: '';
+  height: 0;
+  left: 32px;
+  position: absolute;
+  width: 0;
+}*/
+
+.partners{
+background-color: #fff;
+text-align: center;
+}
+.partners div{
+    margin-top: 20px;
+    display: box;
+    display: flex;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    -o-box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.partner{
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 1px solid #f0f0f0;
+  transition: 200ms;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.partner:hover{
+  background-color: #F1F0F0;
+}
+
+
+.contact{
+    background: #00a9cf;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 10vh;
+     z-index: 2;
+}
+.contact:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -40px; right: -40px; bottom: -40px; left: -40px;
+    background: rgba(255,255,255,0.1);
+    transform: rotate(-30deg);
+    z-index: -1;
+}
+.contact .input{
+    width: 47%;
+    float: left;
+}
+.contact .input:nth-of-type(odd){
+    margin-right: 6%;
+}
+.contact .message{
+    display: block;
+    clear: both;
+    float: none;
+    padding-top: 10px;
+}
+.contact .input input{
+    display: block;
+    width: 100%;
+    background: rgba(255,255,255,0.3);
+    border: 0;
+    padding: 10px 15px;
+}
+.contact .message textarea{
+    display: block;
+    width: 100%;
+    height: 200px;
+    background: rgba(255,255,255,0.3);
+    border: 0;
+    padding: 10px 15px;
+    resize: vertical;
+}
+.contact label{
+    position: relative;
+    z-index: 10;
+}
+.contact label span{
+    display: block;
+    text-align: left;
+    font-size: 14px;
+}
+.contact label span .fa{
+    margin-right: 7px;
+}
+.contact .submit{
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+}
+.contact h2{
+    margin-bottom: 40px;
 }

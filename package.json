@@ -12,8 +12,9 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mrsideshowjack/launch-static/issues"
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1"
   },
   "homepage": "https://github.com/mrsideshowjack/launch-static#readme"
 }
