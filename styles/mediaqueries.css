@@ -1,0 +1,25 @@
+@media (max-width: 600px){
+    body{
+        background-color: hotpink;
+    }
+	.contact h2{
+        font-size: 1.5em;
+    }
+    .contact .input{
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    .contact .input:nth-of-type(odd){
+        margin-right: 0;
+    }
+    .contact label{
+        padding-top: 10px;
+    }
+    .contact label:first-of-type{
+        padding-top: 0;
+    }
+}
+@media (max-width: 800px){
+
+}
