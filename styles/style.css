@@ -143,7 +143,7 @@ text-align: center;
 .people .person{
   max-width: 400px;
   width: 300px;
-  height: 170px;
+  height: 150px;
   margin: 10px;
   padding: 10px;
   background-color: #ffffff;
@@ -192,9 +192,12 @@ text-align: center;
   transition: filter 0.3s, box-shadow 0.3s;
   -webkit-transition: filter 0.3s, -webkit-filter 0.3s, box-shadow 0.3s;
 }
-.person:hover, .person-avatar:hover{
+.person:hover .person-avatar{
   -webkit-filter: none;
   filter: none;
+-webkit-box-shadow: 0px 0px 23px 6px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 0px 23px 6px rgba(0,0,0,0.3);
+box-shadow: 0px 0px 23px 6px rgba(0,0,0,0.3);
 }
 
 .social{
