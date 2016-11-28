@@ -1,6 +1,23 @@
 @media (max-width: 600px){
     body{
-        background-color: hotpink;
+        /*background-color: hotpink;*/
+        /*font-size: 20px;*/
+    }
+    section{
+        padding: 6em 0.1em; 
+    }
+    .splash img{
+      max-width: 97%; 
+    }
+    .social:after{
+    width: 120%;
+    height: 300px;
+    top: 50%; right: 0; bottom: 0; left: -10%;
+    } 
+    .partners:after{
+    width: 120%;
+    height: 300px;
+    top: 50%; right: 0; bottom: 0; left: -10%;
     }
 	.contact h2{
         font-size: 1.5em;
@@ -21,5 +38,8 @@
     }
 }
 @media (max-width: 800px){
-
+    body{
+/*        background-color: red;
+        font-size: 14px;*/
+    }
 }
