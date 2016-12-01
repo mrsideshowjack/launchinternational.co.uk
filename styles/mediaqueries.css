@@ -1,7 +1,5 @@
 @media (max-width: 600px){
     body{
-        /*background-color: hotpink;*/
-        /*font-size: 20px;*/
     }
     section{
         padding: 6em 0.1em; 
@@ -39,7 +37,5 @@
 }
 @media (max-width: 800px){
     body{
-/*        background-color: red;
-        font-size: 14px;*/
     }
 }
