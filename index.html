@@ -38,9 +38,26 @@
         }(document, 'script', 'facebook-jssdk'));
     </script>
 
-    <!-- <nav>Do we need a nav?</nav> -->
+    <header>
+            <div class="container">
+                <a class="logo" href="#splash" data-scrollto="splash">
+                <img class="logo-img" src="images/logo/launch-white.png"></i>
+                <!-- <h1>Launch International</h1> -->
+                </a>
+                <i class="fa fa-bars toggle-menu" aria-hidden="true"></i>
+                <nav>
+                    <ul class="menuItems">
+                        <li><a href="#about" data-scrollto="about">Misson</a></li>
+                        <li><a href="#people" data-scrollto="people">People</a></li>
+                        <li><a href="#social" data-scrollto="social">Social</a></li>
+                        <li><a href="#partners" data-scrollto="partners">Partners</a></li>
+                        <li><a href="#contact" data-scrollto="contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-    <section class="splash">
+    <section class="splash" id="splash">
         <img src="images/logo/launch-white.png">
         <div>
             <a href="https://www.example.com/">
@@ -49,10 +66,15 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <article>
             <h2>Launch International</h2>
             <p class="caption">Launch is passionate about innovation, creativity, and imagination.</p>
+
+            <p>
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/0PsEvrpRzNM" frameborder="0" allowfullscreen></iframe>
+            </p>
+
             <p> Our primary goal is to support colleagues, customers, partners and collaborators to transform next generational ideas into marketable products and services. </p>
             <p>We are a team of like-minded individuals who seek to utilise the latest developments in open data, big data analysis, and intelligent information matching systems, in order to deploy technologies for the advancement and acceleration of innovation in our region and the wider UK economy.</p>
             <p>We are a team of like-minded individuals who seek to utilise the latest developments in open data, big data analysis, and intelligent information matching systems, in order to deploy technologies for the advancement and acceleration of innovation in our region and the wider UK economy.We are a team of like-minded individuals who seek to utilise the latest developments in open data, big data analysis, and intelligent information matching systems, in order to deploy technologies for the advancement and acceleration of innovation in our region and the wider UK economy.We are a team of like-minded individuals who seek to utilise the latest developments in open data, big data analysis, and intelligent information matching systems, in order to deploy technologies for the advancement and acceleration of innovation in our region and the wider UK economy.</p>
@@ -60,7 +82,7 @@
         </article>
     </section>
 
-    <section class="people">
+    <section class="people" id="people">
         <article>
             <h2>People</h2>
             <p class="caption">The people behind Launch</p>
@@ -137,9 +159,13 @@
         </div>
     </section>
 
-    <section class="social">
+    <section class="social" id="social">
         <div class="twitter">
             <a class="twitter-timeline" data-height="500" data-theme="light" data-link-color="#00a9cf" href="https://twitter.com/knownowinfo">Tweets by knownowinfo</a>
+        </div>
+        <div>
+        	<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+			<script type="IN/CompanyProfile" data-id="5072403" data-format="inline"></script>
         </div>
         <div class="fb-page" data-href="https://www.facebook.com/fontawesome" data-tabs="timeline" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
             <blockquote cite="https://www.facebook.com/fontawesome" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fontawesome">FontAwesome Facebook</a>
@@ -147,15 +173,15 @@
         </div>
     </section>
 
-    <section class="partners">
+    <section class="partners" id="partners">
         <h2>Partners</h2>
         <p class="caption">Here are some of our partners</p>
         <div>
-            <a href="https://www.example.com/" class="partner">
-                <img src="images/partners/a843b9e140ae03a1d15cbaf0fb7b3c17.svg" alt="partner" class="partner-img">
+            <a href="http://www.kn-i.com/" class="partner">
+                <img src="images/partners/knownow.png" alt="partner" class="partner-img">
             </a>
-            <a href="https://www.example.com/" class="partner">
-                <img src="images/partners/b4b6239bbd073d2c5806b8a68437aa92.svg" alt="partner" class="partner-img">
+            <a href="https://www.businesssouth.org/" class="partner">
+                <img src="images/partners/Business_South.png" alt="partner" class="partner-img">
             </a>
             <a href="https://www.example.com/" class="partner">
                 <img src="images/partners/c5f14d48cf2611d691b04a3735cde67b.png" alt="partner" class="partner-img">
@@ -166,13 +192,13 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <article>
             <h2>Get in touch</h2>
             <p>Please feel free to email <a href="mailto:launch@example.com">launch@example.com</a>
             </p>
 
-            <form class="contact-form" action="https://formspree.io/launch@example.com" method="POST">
+            <form class="contact-form" action="https://formspree.io/jack.mason@kn-i.com" method="POST">
                 <label class="input"><span>Name</span>
                     <input type="text" name="name" required>
                 </label>
@@ -186,13 +212,17 @@
                 </label>
 
                 <label class="submit">
-                    <input type="submit" value="Send Message &#xf105;" class="btn" style="font-family:'Open Sans', 'FontAwesome';">
+                    <input type="submit" value="Send Message &#xf105;" class="btn" style="font-family:'Roboto', 'FontAwesome';">
                 </label>
             </form>
         </article>
     </section>
 
-    <!-- <footer>Do we need a footer?</footer> -->
+    <footer>
+    	<h2>footer</h2>
+    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    	<a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+    </footer>
 
 </body>
 
