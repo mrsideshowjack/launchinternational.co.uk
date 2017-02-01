@@ -146,6 +146,15 @@ header .toggle-menu{
     background: -ms-linear-gradient(45deg, #3a397b 0%, #3a397b 15%, #00a9cf 100%);
     background: linear-gradient(45deg, #3a397b 0%, #3a397b 15%, #00a9cf 100%);
 }
+.splash .caption{
+    text-align: center;
+    font-size: 1.8em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: #fff;
+}
 .splash img {
     display: block;
     margin-left: auto;
@@ -198,10 +207,66 @@ article {
     font-style: italic;
     margin-bottom: 3em;
 }
+
+.about .jouney{
+    margin-bottom: 1.5em;
+ display: box;
+display: flex;
+-webkit-box-lines: multiple;
+-moz-box-lines: multiple;
+-o-box-lines: multiple;
+-webkit-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+-webkit-box-pack: center;
+-moz-box-pack: center;
+-o-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+}
+.about .jouney .jouney-item{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+.about .jouney .jouney-item .jouney-arrow{
+    display: block;
+float: right;
+  width: 0; 
+  height: 0; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 25px solid #212121;
+  position: relative;
+  top:-60%;
+  left: 10%;
+}
+.about .jouney .jouney-img{
+    max-height: 250px;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    overflow: hidden;
+}
+.about .jouney .jouney-caption{
+    display: block;
+}
 .about img {
-    position: absolute;
+/*    position: absolute;
     top: 100px;
-    right: 55%;
+    right: 55%;*/
     /* float: right;
     max-width: 33vw;
     padding-left: 10px;*/
