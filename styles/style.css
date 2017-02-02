@@ -161,7 +161,7 @@ header .toggle-menu{
     margin-right: auto;
     max-width: 85%;
 }
-.splash div {
+.splash div, .btn-container {
     display: flex;
     justify-content: center;
 }
@@ -180,6 +180,7 @@ header .toggle-menu{
     text-decoration: none;
     background: rgba(255, 255, 255, 0.1);
 }
+
 article {
     max-width: 1400px;
     margin: 0em auto;
@@ -196,6 +197,14 @@ article {
     background-blend-mode: soft-light;
     position: relative;
     overflow: hidden;*/
+}
+.about .btn{
+    color: #212121;
+    border: 1px solid #212121;
+}
+.about .btn:hover {
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.3);
 }
 .about h2 {
     text-align: center;
@@ -274,7 +283,7 @@ float: right;
 .about p {
     font-size: 1.2em;
     max-width: 85vw;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 .people {
     background: #00a9cf;
@@ -370,6 +379,64 @@ float: right;
     -moz-box-shadow: 0px 0px 23px 6px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 0px 23px 6px rgba(0, 0, 0, 0.3);
 }
+.links{
+    background: #eee;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    text-align: center;    
+}
+.links a, .links p, .links a:visited{
+    color: #212121;
+    text-decoration: none;
+}
+/*.links:after{
+    width: 120%;
+    content: "";
+    display: block;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    bottom: -40px;
+    left: -40px;
+    background: rgba(255, 255, 255, 0.1);
+    transform: rotate(30deg);
+    z-index: -1;
+}*/
+.links .link-container{
+    background-color: #fff;
+    width: 50vw;
+    margin: 1em auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.links .link-container .link{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    flex-wrap: wrap;
+    transition: box-shadow 0.6s;
+    -webkit-transition: box-shadow 0.6s;
+}
+.links .link-container .link:hover{
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 23px 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 23px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 23px 6px rgba(0, 0, 0, 0.3);
+}
+.links .link-container .link span{
+    margin: 1em;
+    flex: 1;
+    /*max-width: 300px;*/
+}
+.links .link-container .link img{
+    margin: 1em;
+    flex: 1;
+    max-width: 300px;
+    max-height: 300px;
+}
 .social {
     /*width: 100%;*/
     
@@ -409,7 +476,7 @@ float: right;
 }
 .social div {
     margin: 2em auto;
-    min-width: 400px;
+    min-width: 600px;
     max-width: 40vw;
     /*-webkit-box-shadow: 4px 2px 20px -6px rgba(0, 0, 0, 0.73);
     -moz-box-shadow: 4px 2px 20px -6px rgba(0, 0, 0, 0.73);
