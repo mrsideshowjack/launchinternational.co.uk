@@ -31,6 +31,7 @@ p {
 }
 h2 {
     font-size: 2.5em;
+    color: #3a397b;
 }
 a {
     color: #3a397b;
@@ -161,7 +162,7 @@ header .toggle-menu{
     margin-right: auto;
     max-width: 85%;
 }
-.splash div, .btn-container {
+.btn-container {
     display: flex;
     justify-content: center;
 }
@@ -211,13 +212,14 @@ article {
 }
 .about .caption {
     color: #00a9cf;
+    font-size: 1.5em;
     text-align: center;
     font-weight: 100;
     font-style: italic;
     margin-bottom: 3em;
 }
 
-.about .jouney{
+.about .journey{
     margin-bottom: 1.5em;
  display: box;
 display: flex;
@@ -234,26 +236,28 @@ flex-wrap: wrap;
 -webkit-justify-content: center;
 justify-content: center;
 }
-.about .jouney .jouney-item{
+.about .journey .journey-item{
     vertical-align: top;
     display: inline-block;
     text-align: center;
     margin: 10px;
 }
-.about .jouney .jouney-item .jouney-arrow{
+.about .journey .journey-item .journey-arrow{
     display: block;
 float: right;
   width: 0; 
   height: 0; 
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
-  border-left: 25px solid #212121;
+  border-left: 25px solid #00a9cf;
   position: relative;
   top:-60%;
   left: 10%;
 }
-.about .jouney .jouney-img{
-    max-height: 250px;
+.about .journey .journey-img{
+    height: 250px;
+    width: 250px;
+    margin: 20px;
     display: flex;
     -webkit-box-pack: center;
     -moz-box-pack: center;
@@ -269,7 +273,7 @@ float: right;
     align-items: center;
     overflow: hidden;
 }
-.about .jouney .jouney-caption{
+.about .journey .journey-caption{
     display: block;
 }
 .about img {
@@ -380,7 +384,8 @@ float: right;
     box-shadow: 0px 0px 23px 6px rgba(0, 0, 0, 0.3);
 }
 .links{
-    background: #eee;
+    /*background: #eee;*/
+    background: #00a9cf;
     position: relative;
     overflow: hidden;
     z-index: 2;
@@ -390,7 +395,7 @@ float: right;
     color: #212121;
     text-decoration: none;
 }
-/*.links:after{
+.links:after{
     width: 120%;
     content: "";
     display: block;
@@ -402,7 +407,7 @@ float: right;
     background: rgba(255, 255, 255, 0.1);
     transform: rotate(30deg);
     z-index: -1;
-}*/
+}
 .links .link-container{
     background-color: #fff;
     width: 50vw;
@@ -634,4 +639,39 @@ float: right;
 }
 .contact h3 {
     margin-bottom: 40px;
+}
+
+footer{
+    background-color: #212121;
+    min-height: 50vh;
+    position: relative;
+}
+footer #footer-logo{
+    max-width: 200px;
+    margin: 3em;
+    float: right;
+}
+footer #footer-arrow{
+    position: absolute;
+    width: 200px;
+
+    bottom: 0;
+    left: 0;
+}
+footer .footer-table{
+    color: #fff;
+    position: absolute;
+    list-style: none;
+    margin: 2em;
+    right: 0;
+    bottom: 10%;
+}
+footer a{
+    color: #fff;
+    font-size: 1.2em;
+    padding: 1.5em 2.5em;
+}
+footer a:hover{
+    color: #00a9cf;
+    text-decoration: underline;
 }

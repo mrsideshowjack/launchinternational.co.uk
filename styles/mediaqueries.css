@@ -39,10 +39,16 @@
     .splash img{
       max-width: 97%; 
     }
+    .links .link-container{
+    width: 70vw;
+    }
     .social:after{
     width: 120%;
     height: 300px;
     top: 50%; right: 0; bottom: 0; left: -10%;
+    }
+    .social div {
+    width: 300px;
     } 
     .partners:after{
     width: 120%;
@@ -65,6 +71,12 @@
     }
     .contact label:first-of-type{
         padding-top: 0;
+    }
+    footer #footer-arrow{
+    display: none;
+    }
+    footer a{
+    padding: 0.5em;
     }
 }
 @media (max-width: 800px){
