@@ -1,10 +1,9 @@
-@media (max-width: 600px){
-    body{
+@media (max-width: 600px) {
+    body {}
+    section {
+        padding: 6em 0.1em;
     }
-    section{
-        padding: 6em 0.1em; 
-    }
-        header nav{
+    header nav {
         float: none;
         position: fixed;
         top: 56px;
@@ -13,22 +12,23 @@
         width: 100%;
         max-width: 300px;
         background: #333;
+        -webkit-transition: 200ms;
         transition: 200ms;
     }
-    header nav.visible{
+    header nav.visible {
         left: 0px;
     }
-    header nav ul li{
+    header nav ul li {
         display: block;
         float: none;
         width: 80%;
     }
-    header nav ul li a{
+    header nav ul li a {
         display: block;
         width: 100%;
-        border-bottom: 1px solid rgba(255,255,255,0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
-    header .toggle-menu{
+    header .toggle-menu {
         display: block;
         color: #fff;
         position: absolute;
@@ -36,63 +36,70 @@
         top: 13px;
         font-size: 28px;
     }
-    .splash img{
-      max-width: 97%; 
+    .splash img {
+        max-width: 97%;
     }
-    .links .link-container{
-    width: 90vw;
-    padding: 0.5em;
+    .links .link-container {
+        width: 90vw;
+        padding: 0.5em;
     }
     .about .journey .journey-item .journey-arrow {
-     float: initial; 
-     top: 0%; 
-    left: 60%;
-    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    transform: rotate(90deg);
+        float: initial;
+        top: 0%;
+        left: 60%;
+        /* IE 9 */
+        -webkit-transform: rotate(90deg);
+        /* Chrome, Safari, Opera */
+        transform: rotate(90deg);
     }
-    .social:after{
-    width: 120%;
-    height: 300px;
-    top: 50%; right: 0; bottom: 0; left: -10%;
+    .social:after {
+        width: 120%;
+        height: 300px;
+        top: 50%;
+        right: 0;
+        bottom: 0;
+        left: -10%;
     }
     .social div {
-    width: 300px;
-    } 
-    .partners:after{
-    width: 120%;
-    height: 300px;
-    top: 50%; right: 0; bottom: 0; left: -10%;
+        width: 300px;
     }
-	.contact h2{
+    .partners:after {
+        width: 120%;
+        height: 300px;
+        top: 50%;
+        right: 0;
+        bottom: 0;
+        left: -10%;
+    }
+    .contact h2 {
         font-size: 1.5em;
     }
-    .contact .input{
+    .contact .input {
         display: block;
         width: 100%;
         float: none;
     }
-    .contact .input:nth-of-type(odd){
+    .contact .input:nth-of-type(odd) {
         margin-right: 0;
     }
-    .contact label{
+    .contact label {
         padding-top: 10px;
     }
-    .contact label:first-of-type{
+    .contact label:first-of-type {
         padding-top: 0;
     }
-    footer #footer-arrow{
-    display: none;
+    footer #footer-arrow {
+        display: none;
     }
-    footer .footer-table{
+    footer .footer-table {
         width: 100%;
         margin: 0;
     }
-    footer a{
-    padding: 0.5em;
+    footer a {
+        padding: 0.5em;
     }
 }
-@media (max-width: 800px){
-    body{
-    }
+
+@media (max-width: 800px) {
+    body {}
 }
