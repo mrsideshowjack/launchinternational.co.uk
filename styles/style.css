@@ -240,19 +240,21 @@ justify-content: center;
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    margin: 10px;
+    margin: 2em;
 }
 .about .journey .journey-item .journey-arrow{
+    color: #00a9cf;
+    font-size: 40px;
     display: block;
 float: right;
   width: 0; 
   height: 0; 
-  border-top: 20px solid transparent;
+/*  border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
-  border-left: 25px solid #00a9cf;
+  border-left: 25px solid #00a9cf;*/
   position: relative;
   top:-60%;
-  left: 10%;
+  left: -3%;
 }
 .about .journey .journey-img{
     height: 250px;
@@ -653,10 +655,10 @@ footer #footer-logo{
 }
 footer #footer-arrow{
     position: absolute;
-    width: 200px;
-
+    max-width: 30vw;
     bottom: 0;
     left: 0;
+    height: 100%;
 }
 footer .footer-table{
     color: #fff;

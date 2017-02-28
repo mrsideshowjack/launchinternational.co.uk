@@ -40,7 +40,16 @@
       max-width: 97%; 
     }
     .links .link-container{
-    width: 70vw;
+    width: 90vw;
+    padding: 0.5em;
+    }
+    .about .journey .journey-item .journey-arrow {
+     float: initial; 
+     top: 0%; 
+    left: 60%;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
     }
     .social:after{
     width: 120%;
@@ -74,6 +83,10 @@
     }
     footer #footer-arrow{
     display: none;
+    }
+    footer .footer-table{
+        width: 100%;
+        margin: 0;
     }
     footer a{
     padding: 0.5em;
