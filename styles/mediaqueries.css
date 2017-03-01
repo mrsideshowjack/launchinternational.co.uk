@@ -100,6 +100,14 @@
     }
 }
 
-@media (max-width: 800px) {
-    body {}
+@media (max-width: 1000px) {
+    .about .journey .journey-img {
+    max-width: 90vw;
+    }
+    .about .journey .journey-item .journey-arrow {
+        left: 5%;
+    }
+    .links .link-container .link span{
+    min-width: 100%;
+    }
 }

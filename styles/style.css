@@ -280,17 +280,15 @@ article {
     font-size: 40px;
     display: block;
     float: right;
-    width: 0;
-    height: 0;
-    /*  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-left: 25px solid #00a9cf;*/
     position: relative;
     top: -60%;
-    left: -3%;
+    left: 20%;
+    right: 0;
+    bottom: 0;
 }
 
 .about .journey .journey-img {
+    max-width: calc(100vw / 4 - 8em);
     height: 250px;
     width: 250px;
     margin: 20px;
