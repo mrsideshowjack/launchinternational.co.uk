@@ -91,9 +91,11 @@
     footer #footer-arrow {
         display: none;
     }
-    footer .footer-table {
-        width: 100%;
-        margin: 0;
+    footer article{
+    padding: 2em;
+    float: left;
+    max-width: 100%;
+    text-align: left;
     }
     footer a {
         padding: 0.5em;
