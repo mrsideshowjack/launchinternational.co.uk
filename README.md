@@ -1,8 +1,8 @@
-![](images/logo/launch-voilet.png)
+![](images/logo/launch-violet.png)
 # Launch International - Static site
 Development for LaunchInternational.co.uk website
 
->See live version at TBD
+>See live version at [launchinternational.co.uk](http://www.launchinternational.co.uk/)
 
 ## Pages
 
@@ -49,4 +49,4 @@ $ gulp serve
 
 ## Deploy
 
->TBD
+>The master branch of this repo is deployed via github pages

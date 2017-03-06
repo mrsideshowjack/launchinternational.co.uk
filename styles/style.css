@@ -735,7 +735,7 @@ article {
 
 footer {
     background-color: #212121;
-    min-height: calc(50vh + 2em);
+    min-height: 60vh;
     position: relative;
     color: #fff;
     font-size: 1em;
