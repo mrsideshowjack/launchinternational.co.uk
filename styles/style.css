@@ -22,8 +22,7 @@ body {
     color: #212121;
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    /*fallback*/
+    font-size: 16px;  /*fallback*/
     font-size: 1rem;
     line-height: 1.5;
     font-weight: 300;
@@ -736,7 +735,7 @@ article {
 
 footer {
     background-color: #212121;
-    min-height: 50vh;
+    min-height: calc(50vh + 2em);
     position: relative;
     color: #fff;
     font-size: 1em;
@@ -755,25 +754,26 @@ footer #footer-arrow {
     left: 0;
     height: 100%;
 }
-footer article{
+
+footer article {
     padding: 2em;
     float: right;
     max-width: 33%;
-      -webkit-column-count: 2;
-     -moz-column-count: 2;
-          column-count: 2;
-  -webkit-column-width: 200px;
-     -moz-column-width: 200px;
-          column-width: 200px;
-          text-align: right;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+    text-align: right;
 }
+
 footer ul {
     list-style: none;
-        margin: 0px;
+    margin: 0px;
     padding: 0px;
     height: 100%;
 }
-
 
 footer a {
     color: #fff;

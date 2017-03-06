@@ -60,7 +60,7 @@
         bottom: 0;
         left: -10%;
     }
-    .social div {
+    .social iframe {
         width: 300px;
     }
     .partners:after {
@@ -91,11 +91,11 @@
     footer #footer-arrow {
         display: none;
     }
-    footer article{
-    padding: 2em;
-    float: left;
-    max-width: 100%;
-    text-align: left;
+    footer article {
+        padding: 2em;
+        float: left;
+        max-width: 100%;
+        text-align: left;
     }
     footer a {
         padding: 0.5em;
@@ -104,12 +104,12 @@
 
 @media (max-width: 1000px) {
     .about .journey .journey-img {
-    max-width: 90vw;
+        max-width: 90vw;
     }
     .about .journey .journey-item .journey-arrow {
         left: 5%;
     }
-    .links .link-container .link span{
-    min-width: 100%;
+    .links .link-container .link span {
+        min-width: 100%;
     }
 }
