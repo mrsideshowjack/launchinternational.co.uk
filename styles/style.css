@@ -478,7 +478,6 @@ article {
 .links .link-container .link {
         background-color: #f3f3f3;
     margin: 1em auto;
-    border: 3px solid #1ab2d4;
     width: 90%;
 
     display: -webkit-box;
@@ -510,7 +509,7 @@ article {
 }
 
 .links .link-container .link .sub-link{
-    color: pink;
+    /*color: pink;*/
 }
 
 .links .link-container .link img {
@@ -569,7 +568,7 @@ article {
 
 .social div {
     margin: 2em auto;
-    min-width: 600px;
+    min-height: 600px;
     max-width: 40vw;
     /*-webkit-box-shadow: 4px 2px 20px -6px rgba(0, 0, 0, 0.73);
     -moz-box-shadow: 4px 2px 20px -6px rgba(0, 0, 0, 0.73);
