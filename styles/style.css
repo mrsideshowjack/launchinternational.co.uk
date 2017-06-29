@@ -274,7 +274,7 @@ article {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    margin: 2em;
+    /*margin: 0px 2em;*/
     position: relative;
 }
 
@@ -285,7 +285,7 @@ article {
     float: right;
     position: relative;
     top: -60%;
-    left: 20%;
+    left: 5%;
     right: 0;
     bottom: 0;
 }
@@ -322,10 +322,15 @@ article {
     padding-left: 10px;*/
 }
 
+.about div article{
+    max-width: 900px;
+    line-height: 1.9em;
+    column-count: 2;
+    column-gap: 4em;
+}
 .about p {
     font-size: 1.2em;
-    max-width: 85vw;
-    margin: 1em auto;
+    margin: 0em auto 1em auto;
 }
 
 .people {
@@ -750,38 +755,22 @@ article {
 
 footer {
     background-color: #212121;
-    min-height: 40vh;
     overflow-y: auto;
     position: relative;
     color: #fff;
     font-size: 1em;
 }
 
-footer #footer-logo {
-    max-width: 200px;
-    margin: 3em;
-    float: right;
-}
-
-footer #footer-arrow {
-    position: absolute;
-    max-width: 30vw;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-}
-
 footer article {
     padding: 2em;
-    float: right;
-    max-width: 33%;
+    float: left;
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
-    -webkit-column-width: 200px;
-    -moz-column-width: 200px;
-    column-width: 200px;
-    text-align: right;
+    -webkit-column-width: 300px;
+    -moz-column-width: 300px;
+    column-width: 300px;
+    column-gap: 2em;
 }
 
 footer ul {
