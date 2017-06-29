@@ -46,7 +46,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 section {
@@ -236,6 +236,9 @@ article {
     text-decoration: none;
     background: rgba(0, 0, 0, 0.3);
 }
+.about .btn-container a:hover{
+    text-decoration: none;
+    }
 
 .about h2 {
     text-align: center;
@@ -473,6 +476,11 @@ article {
 }
 
 .links .link-container .link {
+        background-color: #f3f3f3;
+    margin: 1em auto;
+    border: 3px solid #1ab2d4;
+    width: 90%;
+
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -490,7 +498,7 @@ article {
 
 .links .link-container .link:hover {
     background-color: #fff;
-    box-shadow: 0px 0px 23px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 13px 9px rgba(26, 178, 212, 0.4)
 }
 
 .links .link-container .link span {
@@ -499,6 +507,10 @@ article {
     -ms-flex: 1;
     flex: 1;
     min-width: 40%;
+}
+
+.links .link-container .link .sub-link{
+    color: pink;
 }
 
 .links .link-container .link img {
@@ -669,6 +681,10 @@ article {
     z-index: -1;
 }
 
+.contact a:hover {
+    text-decoration: underline;
+}
+
 .contact .contact-form {
     max-width: 80vw;
     margin: auto;
@@ -735,7 +751,8 @@ article {
 
 footer {
     background-color: #212121;
-    min-height: 60vh;
+    min-height: 40vh;
+    overflow-y: auto;
     position: relative;
     color: #fff;
     font-size: 1em;
