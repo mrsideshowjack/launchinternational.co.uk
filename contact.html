@@ -1,0 +1,30 @@
+---
+layout: page
+title: Contact
+order: 5
+---
+
+<article class="contact">
+    <h2>Get in touch</h2>
+    <p>
+        Please feel free to email
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </p>
+    <form class="contact-form" action="https://formspree.io/{{ site.email }}" method="POST">
+        <label class="input">
+            <span>Name</span>
+            <input type="text" name="name" required />
+        </label>
+        <label class="input">
+            <span>Email Address</span>
+            <input type="email" name="_replyto" required />
+        </label>
+        <label class="message">
+            <span>Message</span>
+            <textarea name="message" required></textarea>
+        </label>
+        <label class="submit">
+            <input type="submit" value="Send Message &#xf105;" class="btn" style="font-family:'Roboto', 'FontAwesome';" />
+        </label>
+    </form>
+</article>

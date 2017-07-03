@@ -1,80 +1,11 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="description" content="Launch International, A business to busniness company, situated on the south coast."/>
-        <!-- favicon -->
-        <link rel="icon" href="/images/arrow/launch-arrow-blue-144.png" type="image/x-icon"/>
-        <title>Launch International</title>
-        <meta name="viewport" content="width=device-width"/>
-        <!-- Theme colours, for mobile browsers -->
-        <meta name="theme-color" content="#017783"/>
-        <meta name="msapplication-navbutton-color" content="#017783"/>
-        <meta name="apple-mobile-web-app-status-bar-style" content="#017783"/>
-        <!-- imported styles -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-        <link rel="stylesheet" type="text/css" href="styles/normalize.css"/>
-        <style type="text/css">
-                
-        .splash {
-            height: 100vh;
-            background: #3a397b;
-            background: -moz-linear-gradient(45deg, #3a397b 0%, #3a397b 15%, #00a9cf 100%);
-            background: -webkit-gradient(left bottom, right top, color-stop(0%, #3a397b), color-stop(15%, #3a397b), color-stop(100%, #00a9cf));
-            background: -webkit-linear-gradient(45deg, #3a397b 0%, #3a397b 15%, #00a9cf 100%);
-            background: -o-linear-gradient(45deg, #3a397b 0%, #3a397b 15%, #00a9cf 100%);
-            background: -ms-linear-gradient(45deg, #3a397b 0%, #3a397b 15%, #00a9cf 100%);
-            background: linear-gradient(45deg, #3a397b 0%, #3a397b 15%, #00a9cf 100%);
-            font-family: 'Roboto', sans-serif;
-        }
-        .splash h1 {
-            margin: 0px;
-            color: #fff;
-            font-size: 10em;
-            padding: 1em;
-            text-align: center;
-        }
-        .splash .caption{
-            text-align: center;
-            font-size: 1.8em;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 10px;
-            color: #fff;
-        }
-        .splash .btn-container {
-            display: flex;
-            justify-content: center;
-        }
-        .btn {
-            font-size: 1.5em;
-            margin: 50px 0 0 0;
-            display: inline;
-            padding: 15px 30px;
-            color: #fff;
-            border: 1px solid #fff;
-            transition: 200ms;
-            background: transparent;
-            cursor: pointer;
-        }
-        .btn:hover {
-            text-decoration: none;
-            background: rgba(255, 255, 255, 0.1);
-        }
-        
-            </style>
-    </head>
-    <body>
-        <section class="splash" id="splash">
-            <h1>404</h1>
-            <span class="caption">Click here to return</span>
-            <div class="btn-container">
-                <a href="index.html">
-                    <button class="btn" style="font-family:'Roboto', 'FontAwesome';">Return &#xf105;</button>
-                </a>
-            </div>
-        </section>
-    </body>
-</html>
+---
+layout: default
+title: 404 Page not found
+permalink: 404.html
+---
+
+<div class="page error-page">
+  <i class="fa fa-meh-o" aria-hidden="true"></i>
+  <h1 class="page-title">404: Page not found</h1>
+  <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ site.baseurl }}">Head back home</a> to try finding it again.</p>
+</div>

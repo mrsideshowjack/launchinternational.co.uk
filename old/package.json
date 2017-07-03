@@ -1,0 +1,24 @@
+{
+  "name": "launch-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrsideshowjack/launch-static.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-webserver": "^0.9.1",
+    "run-sequence": "^1.2.2"
+  },
+  "homepage": "https://github.com/mrsideshowjack/launch-static#readme"
+}
