@@ -25,9 +25,10 @@ author:
   url:            https://kn-i.com
 
 paginate:         2
+paginate_path:      'blog/page:num'
 
 gist:
-  noscript: false
+noscript:         false
 
 # Gems
 gems:             [jekyll-paginate]

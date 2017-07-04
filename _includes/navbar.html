@@ -1,5 +1,5 @@
 <section class="navbar">
-	<img class="main-logo" src="../imgs/logo/launch-violet.png">
+	<div class="main-logo-contain"><img class="main-logo lazyload" data-src="{{ site.url }}/imgs/logo/launch-violet.png"></div>
 	<nav>
   {% assign pages_list = site.pages | sort: 'order' %}
       {% for node in pages_list %}

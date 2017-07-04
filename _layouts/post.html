@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date_to_string }}</span>
+  {{ content }}
+</div>
+
+<div class="author">
+  <!-- Look the author details up from the site config. -->
+{% assign author = site.data.authors[page.author] %}
+
+<!-- Output author details if some exist. -->
+{% if author %}
+        <div class="author-detail">
+          {% if author.avatar %}<img class="author-avatar" src="{{ author.avatar }}">{% endif %}
+          <article>
+          <h3>{{ author.name }}</h3>
+          {% if author.description %}<p>{{ author.description }}</p>{% endif %}
+          </article>
+        </div>
+        <span class="author-links">
+          {% if author.twitter %}<a href="{{ author.twitter }}"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i></a>{% endif %}
+          {% if author.email %}<a href="mailto:{{ author.email }}"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i></a>{% endif %}
+          {% if author.web %}<a href="{{ author.web }}"><i class="fa fa-fw fa-external-link" aria-hidden="true"></i></a>{% endif %}
+        </span>
+
+{% endif %}
+</div>
+
+<div class="share">
+<h2>Share This</h2>
+  <!-- Twitter (url, text, @mention) -->
+  <a class="share-btn twitter" href="http://twitter.com/share?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=consentua">
+      <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>
+  </a>
+  <!-- LinkedIn (url, title, summary, source url) -->
+  <a class="share-btn linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary={{ page.title }}&source=consentua.com">
+      <i class="fa fa-fw fa-linkedin" aria-hidden="true"></i>
+  </a>
+  <!-- Facebook (url) -->
+  <a class="share-btn facebook" href="http://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}">
+      <i class="fa fa-fw fa-facebook" aria-hidden="true"></i>
+  </a>
+  <!-- Reddit (url, title) -->
+  <a class="share-btn reddit" href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}">
+      <i class="fa fa-fw fa-reddit-alien" aria-hidden="true"></i>
+  </a>
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- {% if page.comments %}
+  {% include disqus.html %}
+{% endif %} -->

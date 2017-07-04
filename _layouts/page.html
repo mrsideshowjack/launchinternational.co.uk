@@ -4,22 +4,19 @@ layout: default
 
 <div class="page">
   <section class="hero-img">
-  	<img src="{{ site.url }}/imgs/hero-imgs/{{ page.title }}.jpg">
+    {% if page.title == "Blog" %}
+    {% elsif page.title == "Contact"%}
+    {% elsif page.title == "404 Page not found"%}
+    {% else %} 
+    	<img src="{{ site.url }}/imgs/hero-imgs-smol/{{ page.title }}.jpg" data-src="{{ site.url }}/imgs/hero-imgs/{{ page.title }}.jpg" class="lazyload blur-up">
+    {% endif %}
   </section>
   <section class="tagline">
-  	{{ site.description }}
+  	<p>{{ site.description }}</p>
   </section>
-  <h1 class="page-title">{{ page.title }}</h1>
   <section class="page-content">
+  <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}
-  </section>
-  <section class="partners">
-  	<h3>Our Partners</h3>
-  	<div class="partners-imgs">
-	  	<img src="{{ site.url }}/imgs/partners/Business_South.png">
-	  	<img src="{{ site.url }}/imgs/partners/knownow.png">
-	  	<img src="{{ site.url }}/imgs/partners/menzies.png">
-	  	<img src="{{ site.url }}/imgs/partners/PCC-Logo.jpg">
-  	</div>
+  {% include partners.html %}
   </section>
 </div>
