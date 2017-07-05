@@ -1,10 +1,14 @@
 <section class="funding-sources">
 	<p>Here are a few examples of the finding sources we use.</p>
-	<div>
-		<img data-src="{{ site.url }}/imgs/funding-sources/innovate-uk-logo.png" class="lazyload">
-		<img data-src="{{ site.url }}/imgs/funding-sources/research-councils.jpg" class="lazyload">
-		<img data-src="{{ site.url }}/imgs/funding-sources/em3-logo.png" class="lazyload">
-		<img data-src="{{ site.url }}/imgs/funding-sources/carbon-trust.jpg" class="lazyload">
-		<img data-src="{{ site.url }}/imgs/funding-sources/eu.png" class="lazyload">
+	<div class="main-carousel" data-flickity='{ "cellAlign": "center",
+												 "contain": "true",
+												 "wrapAround": "true", 
+												 "autoPlay": "true", 
+												 "pageDots": false }'>
+		{% for image in site.static_files %}
+		    {% if image.path contains '/imgs/funding-sources' %}
+		        <img class="carousel-cell" src="{{ site.url }}{{ image.path }}" alt="Funding source" />
+		    {% endif %}
+		{% endfor %}
 	</div>
 </section>

@@ -27,6 +27,9 @@
 	.page .page-content .partners .partners-imgs{
 		max-width: 95vw;
 	}
+	.funding-sources{
+	    max-width: 90vw;
+	}
 	.contact .input {
         display: block;
         width: 95%;

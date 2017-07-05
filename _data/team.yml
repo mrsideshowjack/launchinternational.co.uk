@@ -1,0 +1,19 @@
+  - name: Team Member
+    email: jack.mason@kn-i.com
+    twitter: mrsideshowjack
+    role: Developer
+    avatar: https://api.adorable.io/avatars/285/Developer.png
+    bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a pretium ligula, tincidunt vestibulum mi.
+
+  - name: Team Member
+    email: jack.mason@kn-i.com
+    twitter: mrsideshowjack
+    role: Head Chef
+    avatar: https://api.adorable.io/avatars/285/Head_Chef.png
+    bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a pretium ligula, tincidunt vestibulum mi.
+
+  - name: Team Member
+    email: jack.mason@kn-i.com
+    role: Dishwasher
+    avatar: https://api.adorable.io/avatars/285/Dishwasher.png
+    bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a pretium ligula, tincidunt vestibulum mi.
