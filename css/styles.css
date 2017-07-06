@@ -159,6 +159,7 @@ border-radius: 3px;
   object-fit: cover;
   width: 100%;
   height: 100%;
+  min-height: 50vh;
   transform: translateY(-20%);
 }
 .hero-img-logo{
@@ -285,7 +286,7 @@ position: absolute;
 background-color: #ffffff;
 background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23acacac' fill-opacity='0.31' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");  width: 100vw;
 text-align: center;
-padding: 2.1rem;
+padding: 2.1rem 0px;
 margin: 2rem 0px;
 }
 .testimonials article{
@@ -399,7 +400,20 @@ margin: 2rem 0px;
   max-width: 60vw;
   margin: 5rem auto;
 }
-
+.to-top{
+  background-color: var(--launch-blue, #00AACF);
+  left: 85%;
+  bottom: -5px;
+  position: relative;
+  border-radius: 50% 50% 0% 0%;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.to-top:hover,
+.to-top:focus{
+  background-color: #212121;
+}
 footer{
   background: var(--launch-violet, #3A397B);
   background: -moz-linear-gradient(45deg, var(--launch-violet, #3A397B) 0%, var(--launch-violet, #3A397B) 40%, var(--launch-blue, #00AACF) 100%);
@@ -410,13 +424,17 @@ footer{
   background: linear-gradient(45deg, var(--launch-violet, #3A397B) 0%, var(--launch-violet, #3A397B) 40%, var(--launch-blue, #00AACF) 100%);
   /*height: 25vh;*/
   color: #fff;
+  padding: 1rem 0px;
+  font-size: 1rem;
+}
+footer .column-container{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 1rem 0px;
-  font-size: 1rem;
+  max-width: 80vw;
+  margin: 0px auto;
 }
 footer .column{
   padding: 0px 2rem;

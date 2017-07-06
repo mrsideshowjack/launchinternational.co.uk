@@ -1,3 +1,13 @@
+@media (min-width: 2000px) and (orientation : landscape){
+	*{
+		font-size: 1.5rem;
+	}
+	.navbar{
+	    max-width: 1500px;
+	    margin: 0px auto;
+	    box-shadow: none;
+	}
+}
 @media (max-width: 825px) {
 	.navbar .main-logo-contain{
 		width: 100%;
@@ -10,11 +20,11 @@
 		flex: 1;
 		margin: 0px;
 	}
-	.hero-img{
-		max-height: 242px;
-	}
-	.hero-img img{
+	.hero-img-container .hero-img{
 		transform: translateY(0%);
+	}
+	.hero-img-container .hero-img-logo{
+		display: none;
 	}
 	.tagline p{
 		max-width: 80vw;
@@ -26,6 +36,10 @@
 	}
 	.page .page-content .partners .partners-imgs{
 		max-width: 95vw;
+	}
+	.team-members > div{
+		max-width: 95vw;
+		grid-template-columns: 1fr 1fr;
 	}
 	.funding-sources{
 	    max-width: 90vw;
@@ -44,7 +58,25 @@
     .contact label:first-of-type {
         padding-top: 0;
     }
-	footer{
+	footer .column-container{
+		max-width: 95vw;
 		justify-content: center;
+	}
+}
+@media (max-width: 300px) {
+	.navbar nav{
+		flex-direction: column;
+	    width: 100%;
+	    margin: 0px;
+	}
+	.navbar-nav-item{
+		width: 100%;
+		padding: 1rem 0px !important;
+	}
+	.hero-img{
+		display: none;
+	}
+	.team-members > div{
+		grid-template-columns: 1fr;
 	}
 }
