@@ -11,5 +11,4 @@ We feel that these technologies and cutting-edge capabilities can have significa
 
 Get in touch with us at [{{ site.email }}](mailto:{{ site.email }}) to find out how we can help your business.
 
-
-{% include twitter-feed.html %}
+{% include partners.html %}

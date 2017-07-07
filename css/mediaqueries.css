@@ -42,7 +42,7 @@
 		grid-template-columns: 1fr 1fr;
 	}
 	.funding-sources{
-	    max-width: 90vw;
+	    width: 95vw;
 	}
 	.contact .input {
         display: block;
