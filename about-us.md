@@ -11,7 +11,7 @@ Access to funding is one of the major hurdles on the road to developing and depl
 
 Launch seeks to utilise the latest developments in open data, big data analysis, and intelligent information matching systems, in order to assist our partners in identifying funding sources for their innovation projects.
 
+
 {% include team.html %}
 
-
-{% include testimonials.html %}
+{% include partners.html %}

@@ -1,19 +1,4 @@
-  - name: Team Member
-    email: jack.mason@kn-i.com
-    twitter: mrsideshowjack
-    role: Developer
-    avatar: https://api.adorable.io/avatars/285/Developer.png
-    bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a pretium ligula, tincidunt vestibulum mi.
-
-  - name: Team Member
-    email: jack.mason@kn-i.com
-    twitter: mrsideshowjack
-    role: Head Chef
-    avatar: https://api.adorable.io/avatars/285/Head_Chef.png
-    bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a pretium ligula, tincidunt vestibulum mi.
-
-  - name: Team Member
-    email: jack.mason@kn-i.com
-    role: Dishwasher
-    avatar: https://api.adorable.io/avatars/285/Dishwasher.png
-    bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a pretium ligula, tincidunt vestibulum mi.
+  - name: Sally
+    role: Launch Founder
+    avatar: sally.JPG
+    bio: Sally Thompson was the founding Chief Executive of Business South, since its conception in 2006. She established the Champion Programme uniting over 250 businesses and business leaders from the South Central region to influence public policy and drive forward positive change. Sally was also been instrumental in uniting a number of business-led action groups and projects for the benefit of all who live, work, visit and study in the South region.

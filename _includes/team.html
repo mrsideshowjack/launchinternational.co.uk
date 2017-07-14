@@ -1,22 +1,19 @@
 <section class="team-members">
-	<h2>Meet the team</h2>
-	<div>
+<!-- 	<h2>Meet the team</h2> -->
 
-	 {% for entry in site.data.team %}
-	 	<article class="team-member">
-		 <img src="{{ entry.avatar }}">
-		 <h3 class="name">{{ entry.name }}</h3>
+	{% for entry in site.data.team %}
+	<div class="team-member">
+		<img src="{{ site.url }}/imgs/team/{{ entry.avatar }}">
+	 	<article>
+		<h3 class="name">{{ entry.name }}</h3>
 		 <p class="role">{{ entry.role }}</p>
 		 <p class="bio">{{ entry.bio }}</p>
-		 {% if entry.email %}
-			 <a href="mailto:{{ entry.email }}"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-		 {% endif %}
 		 {% if entry.twitter %}
 			 <a href="https://twitter.com/{{ entry.twitter }}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 		 {% endif %}
 		</article>
+	 </div>
 	 {% endfor %}
 
 
-	 </div>
 </section>

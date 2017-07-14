@@ -37,9 +37,8 @@
 	.page .page-content .partners .partners-imgs{
 		max-width: 95vw;
 	}
-	.team-members > div{
+	.team-members .team-member{
 		max-width: 95vw;
-		grid-template-columns: 1fr 1fr;
 	}
 	.funding-sources{
 	    width: 95vw;
@@ -76,7 +75,7 @@
 	.hero-img{
 		display: none;
 	}
-	.team-members > div{
-		grid-template-columns: 1fr;
+	.team-members .team-member article{
+	  min-width: 30px;
 	}
 }

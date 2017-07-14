@@ -24,8 +24,8 @@ author:
   name:           'Knownow Information'
   url:            https://kn-i.com
 
-paginate:         2
-paginate_path:      'blog/page:num'
+# paginate:         2
+# paginate_path:      'blog/page:num'
 
 gist:
 noscript:         false
