@@ -1,0 +1,16 @@
+{
+  "name": "Launch International",
+  "short_name": "Launch",
+  "start_url": "/",
+  "display": "fullscreen",
+  "theme_color": "#00AACF",
+  "background_color": "#3A397B",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "imgs/logo/launch-white.png",
+      "sizes": "1289x400",
+      "type": "image/png"
+    }
+  ]
+}
