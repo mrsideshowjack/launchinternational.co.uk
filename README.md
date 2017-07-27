@@ -8,9 +8,11 @@ Development for LaunchInternational.co.uk website
 
 For design guidelines see: `Launch Identity v1.1.pdf`
 
-Website specific:
+Website Icons:
 * [fontawesome](http://fontawesome.io/) ver 4.7 - for icons
 
+Images:
+* [unsplash](https://unsplash.com/) for hero images.
 
 ## How do I run on my local machine?
 
