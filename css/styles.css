@@ -164,10 +164,10 @@ border-radius: 3px;
 }
 .hero-img-logo{
 position: absolute;
-  right: 5%;
-  top: 36%;
-  bottom: -25%;
-  width: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 550px;
   z-index: 1;
 }
 .tagline{

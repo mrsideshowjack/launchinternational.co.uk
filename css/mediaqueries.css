@@ -78,4 +78,10 @@
 	.team-members .team-member article{
 	  min-width: 30px;
 	}
+	.team-members .team-member img{
+		max-width: 90%;
+	}
+	#definition article{
+		max-width: 100%;
+	}
 }
