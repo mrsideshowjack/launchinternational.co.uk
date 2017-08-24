@@ -291,6 +291,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='84' height='84' viewBox=
   border-radius: 30px;
   object-fit: contain;
   max-width: 40%;
+  float: right;
   border-radius: 30px;
 }
 .team-members .team-member article{

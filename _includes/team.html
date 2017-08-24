@@ -3,9 +3,9 @@
 
 	{% for entry in site.data.team %}
 	<div class="team-member">
-		<img src="{{ site.url }}/imgs/team/{{ entry.avatar }}">
 	 	<article>
 		<h3 class="name">{{ entry.name }}</h3>
+		 <img src="{{ site.url }}/imgs/team/{{ entry.avatar }}">
 		 <p class="role">{{ entry.role }}</p>
 		 <p class="bio">{{ entry.bio }}</p>
 		 {% if entry.twitter %}
