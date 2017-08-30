@@ -1,0 +1,15 @@
+<section class="navbar">
+	<div class="main-logo-contain">
+    <a href="{{ site.url }}"><img class="main-logo lazyload" data-src="{{ site.url }}/imgs/logo/launch-violet.png" alt="Launch Logo"></a>
+  </div>
+	<nav>
+  {% assign pages_list = site.pages | sort: 'order' %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <a class="navbar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+	</nav>
+</section>

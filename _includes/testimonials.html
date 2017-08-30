@@ -1,0 +1,18 @@
+<section class="testimonials">
+	<h2>What our customers say about us.</h2>
+	<div class="main-carousel" data-flickity='{ "cellAlign": "center",
+												 "contain": "true",
+												 "wrapAround": "true",
+												 "autoPlay": 5000,
+												 "adaptiveHeight": "true"}'>
+
+	 {% for entry in site.data.testimonials %}
+	 	<article class="carousel-cell">
+		 <h3>{{ entry.name }}</h3>
+		 <p>{{ entry.description }}</p>
+		 <img src="{{ entry.avatar }}">
+		</article>
+	 {% endfor %}
+
+	 </div>
+</section>

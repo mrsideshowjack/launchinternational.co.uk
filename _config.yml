@@ -1,0 +1,38 @@
+# Dependencies
+# markdown:         redcarpet
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Launch International
+tagline:          'The Journey Of Innovation.'
+description:      'Our primary goal at Launch International Ltd is to support colleagues, customers, partners and collaborators in their goal to transform next generational ideas into marketable products and services.'
+description2:     'Launch seeks to utilise the latest developments in open data, big data analysis, and intelligent information matching systems, in order to assist our partners in identifying funding sources for their innovation projects.'
+keywords:         'Launch, Launch International, Innovation, Funding, big data, information matching'
+url:              
+baseurl:          
+
+# Social
+twitter:          launch_int
+
+# Contact
+email:            contact@launchinternational.co.uk
+
+author:
+  name:           'Knownow Information'
+  url:            https://kn-i.com
+
+# paginate:         2
+# paginate_path:      'blog/page:num'
+
+gist:
+noscript:         false
+
+# Gems
+gems:             [jekyll-paginate]
+
+github:           
+  repo:           mrsideshowjack/launch-static
+repository:       mrsideshowjack/launch-static

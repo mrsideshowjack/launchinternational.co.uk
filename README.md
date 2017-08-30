@@ -4,49 +4,31 @@ Development for LaunchInternational.co.uk website
 
 >See live version at [launchinternational.co.uk](http://www.launchinternational.co.uk/)
 
-## Pages
-
-* `/index.html`
-* `/policy.html`
-* `/404.html`
-
-## Dependencies / Libraries
-
-All libraries (with exceptions of fonts and icons) are stores locally
-
-
-### Scripts
-
-
-### Styles
-* [normalize.css](https://necolas.github.io/normalize.css/) - for rendering all elements more consistently across browsers
-
-
 ## Look and Feel
 
 For design guidelines see: `Launch Identity v1.1.pdf`
 
-Website specific:
+Website Icons:
 * [fontawesome](http://fontawesome.io/) ver 4.7 - for icons
 
-## Development
+Images:
+* [unsplash](https://unsplash.com/) for hero images.
 
-To develop on consentua.com:
+## How do I run on my local machine?
 
-npm install to install devDependencies
+Clone or fork this repo,
+make sure you have ruby and jekyll installed on your machine, and run:
 
+install dependencies:
+` gem install -g `
+
+and serve: 
 ```
-$ npm install
+$ bundle exec jekyll serve
+# => A development server will run at http://localhost:4000/
+# Auto-regeneration: enabled. Use `--no-watch` to disable.
 ```
 
+## How do I deploy?
 
-You may then run this to view the application running locally on [localhost:8080](http://localhost:8080/)  with live reload to develop.
-
-```
-$ gulp serve
-```
-
-
-## Deploy
-
->The master branch of this repo is deployed via github pages
+To deploy, just commit and push your changes to github pages (master branch of this repo).

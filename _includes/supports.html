@@ -1,0 +1,23 @@
+<section class="supports">
+	<div>
+
+	 {% for entry in site.data.supports %}
+	 	<article class="support">
+	 	{% if entry.icon == 'knownow' %}
+	 	<span class="img-icon" ><img src="{{ site.url }}/imgs/partners/knownow-icon.svg"></span>
+	 	{% else %}
+		<span class="fa-stack fa-lg fa-2x ">
+		  <i class="fa fa-fw fa-circle fa-stack-2x"></i>
+		  <i class="fa fa-fw fa-{{ entry.icon }} fa-stack-1x fa-inverse"></i>
+		</span>
+		{% endif %}
+		 <h3>{{ entry.title }}</h3>
+		 <p>{{ entry.text }}</p>
+		{% if entry.link %}
+		 <a href="{{ entry.link }}">{{ entry.title }}</a>
+		{% endif %}
+		</article>
+	 {% endfor %}
+
+	 </div>
+</section>
