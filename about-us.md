@@ -5,7 +5,7 @@ published: true
 order: 2
 ---
 
-> Launch is passionate about innovation, creativity, and imagination.
+<!---Launch is passionate about innovation, creativity, and imagination.--->
 
 Launch enables businesses to do so much whilst requiring so little in return. It understands that a business owner's time is precious.
 
