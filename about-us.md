@@ -7,9 +7,9 @@ order: 2
 
 > Launch is passionate about innovation, creativity, and imagination.
 
-Access to funding is one of the major hurdles on the road to developing and deploying innovative new products and services to market.
+Launch enables businesses to do so much whilst requiring so little in return. It understands that a business owner's time is precious.
 
-Launch seeks to utilise the latest developments in open data, big data analysis, and intelligent information matching systems, in order to assist our partners in identifying funding sources for their innovation projects.
+By combining the latest AI technology with unique industry expertise in business development, funding, marketing, IT, HR and innovation we can help your business grow.
 
 
 
