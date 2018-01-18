@@ -5,6 +5,7 @@ published: true
 order: 5
 ---
 
+Test
 
 {% include supports.html %}
 
