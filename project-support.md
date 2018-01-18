@@ -5,7 +5,7 @@ published: true
 order: 5
 ---
 
-Test
+Launch is an intelligent "find engine" for everything businesses need to succeed. We bring together experts in business development, funding, marketing, IT, HR with innovation and combine them with the latest AI technology. 
 
 {% include supports.html %}
 
