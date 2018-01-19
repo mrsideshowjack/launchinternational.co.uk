@@ -5,9 +5,7 @@ published: true
 order: 5
 ---
 
-Launch is an intelligent "find engine" for everything businesses need to succeed. We bring together experts in business development, funding, marketing, IT, HR with innovation and combine them with the latest AI technology. 
-
-This makes your route to business growth - simple.
+Launch is an intelligent "find engine" for everything businesses need to succeed. We bring together experts in business development, funding, marketing, IT, HR with innovation and combine them with the latest AI technology. This makes your route to business growth - simple.
 
 {% include supports.html %}
 
