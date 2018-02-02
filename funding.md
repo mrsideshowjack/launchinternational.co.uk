@@ -7,7 +7,7 @@ order: 3
 
 We have developed a tool that makes it easy and straightforward to find the best funding opportunities for your business.
 
-Access to funding and investment is one of the major hurdles that all businessess encounter. Launch Funding searches hundreds of sources to find the most relevant funding optinons for your business based on Open Data. This saves our customers from searching through masses of inappropriate information, as well as keeping them appraised on funding opportunities as they emerge.
+Access to funding and investment is one of the major hurdles that all businesses encounter. Launch Funding searches hundreds of sources to find the most relevant funding optinons for your business based on Open Data. This saves our customers from searching through masses of inappropriate information, as well as keeping them appraised on funding opportunities as they emerge.
 
 <!---
 Access to funding is one of the major hurdles on the road to developing and deploying innovative new products and services to market.
